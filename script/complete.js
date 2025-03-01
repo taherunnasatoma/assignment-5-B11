@@ -24,7 +24,7 @@ const completeButtons = document.querySelectorAll('.btn-complt');
 
                 const div=document.createElement("div");
                 div.innerHTML=`
-                <p class="bg-slate-100 rounded-xl p-2">You have Complete The Task Add Dark Mode at 12:48:15 PM</p>
+                <p class="bg-slate-100 rounded-xl p-2 my-3">You have Complete The Task  Mode at 12:48:15 PM</p>
                 
                 `
                 container.appendChild(div)
