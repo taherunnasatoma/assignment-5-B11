@@ -9,24 +9,164 @@
 </head>
 <body class="bg-slate-100">
     <header class="mx-auto">
-        <nav class="bg-white mx-10 my-7 p-4 rounded-xl flex justify-between items-center  ">
+        <nav class="bg-white mx-10 mb-4 mt-8  p-4 rounded-xl flex justify-between items-center  ">
 
             <div class="flex gap-2">
                 <img src="assets/logo.png" alt="">
                 <h1 class="text-3xl">Dev <span class="font-bold">Board</span></h1>
             </div>
             <div class="flex gap-24">
-                <div class="flex gap-2 p-3 bg-slate-200 rounded-2xl">
+                <div class="flex gap-2 p-3 bg-slate-100 rounded-3xl">
                     <img class="" src="assets/checkbox.png" alt="">
                     <p class="text-3xl font-bold">23</p>
                 </div>
     
-                <img class="bg-slate-200  rounded-full p-2" src="assets/theme-btn.png" alt="">
+                <img class="bg-slate-100  rounded-full p-2" src="assets/theme-btn.png" alt="">
     
             </div>
             
             
         </nav>
+        <section class="flex justify-center  mx-6 my-1 p-4 rounded-xl gap-8 ">
+            
+
+            <section class="grid grid-cols-3 gap-px p-2 rounded-xl bg-white">
+
+            <div class="flex bg-slate-100 rounded-xl p-4  mx-3 gap-3">
+                <div ><img class="bg-white rounded-full  p-2 w-12" src="assets/checkbox.png" alt=""></div>
+                <div>
+                    <p class="text-xl">Task Assigned</p>
+                    <p class="text-3xl font-bold">05</p>
+                </div>
+            </div>
+
+            <div class="flex gap-2 p-4 rounded-xl bg-gradient-to-r from-sky-500 to-indigo-500 w-100% ">
+                <img src="assets/board.png" alt="">
+                <p class="text-2xl text-white">Discover Something <br> New Today!</p>
+            </div>
+
+            <div class="flex bg-slate-100 rounded-xl p-4 mx-3 gap-3">
+                <div ><img class="bg-white rounded-xl  p-2 w-16" src="assets/calender.png" alt=""></div>
+                <p id="datetime" class="font-bold tex-xl"></p>
+            </div>
+
+            <!-- cardss -->
+
+            <!-- card-1 -->
+
+            <div class="bg-slate-100 rounded-xl p-4 m-3">
+                <h5 class="bg-white rounded-xl text-xl w-28 p-2 my-2 ">ShopEase</h5>
+                <h3 class="text-2xl font-medium">Fix Mobile Button Issue </h3>
+                <p class="text-xl bg-white rounded-xl text-gray-500 p-3 my-4">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                    and ensure onClick works properly</p>
+                    <div class="flex gap-16 my-3">
+                        <div>
+                            <h6 class="text-xl text-gray-500">Deadline</h6>
+                            <p class="text-2xl font-medium">21 March 2025</p>
+                        </div>
+                        <button class="bg-blue-600 text-xl font-medium text-white rounded-xl px-6 py-2">Completed</button>
+                    </div>
+
+            </div>
+
+             <!-- card-2 -->
+
+             <div class="bg-slate-100 rounded-xl p-4 m-3">
+                <h5 class="bg-white rounded-xl text-xl w-28 p-2 my-2 ">CloudSync</h5>
+                <h3 class="text-2xl font-medium">Add Dark Mode </h3>
+                <p class="text-xl bg-white rounded-xl text-gray-500 p-3 my-4">Store the user's preference in localStorage, update CSS variables dynamically, and apply a smooth transition effect.</p>
+                    <div class="flex gap-16 my-3">
+                        <div>
+                            <h6 class="text-xl text-gray-500">Deadline</h6>
+                            <p class="text-2xl font-medium">21 March 2025</p>
+                        </div>
+                        <button class="bg-blue-600 text-xl font-medium text-white rounded-xl px-6 py-2">Completed</button>
+                    </div>
+
+            </div>
+
+             <!-- card-3 -->
+
+             <div class="bg-slate-100 rounded-xl p-4 m-3">
+                <h5 class="bg-white rounded-xl text-xl w-28 p-2 my-2 ">SwiftPay</h5>
+                <h3 class="text-2xl font-medium">Optimize  Home page  </h3>
+                <p class="text-xl bg-white rounded-xl text-gray-500 p-3 my-4">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                    and ensure onClick works properly</p>
+                    <div class="flex gap-16 my-3">
+                        <div>
+                            <h6 class="text-xl text-gray-500">Deadline</h6>
+                            <p class="text-2xl font-medium">21 March 2025</p>
+                        </div>
+                        <button class="bg-blue-600 text-xl font-medium text-white rounded-xl px-6 py-2">Completed</button>
+                    </div>
+
+            </div>
+
+             <!-- card-4 -->
+
+             <div class="bg-slate-100 rounded-xl p-4 m-3">
+                <h5 class="bg-white rounded-xl text-xl w-28 p-2 my-2 ">Meta</h5>
+                <h3 class="text-2xl font-medium">Add new emoji 🤲 </h3>
+                <p class="text-xl bg-white rounded-xl text-gray-500 p-3 my-4">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                    and ensure onClick works properly</p>
+                    <div class="flex gap-16 my-3">
+                        <div>
+                            <h6 class="text-xl text-gray-500">Deadline</h6>
+                            <p class="text-2xl font-medium">21 March 2025</p>
+                        </div>
+                        <button class="bg-blue-600 text-xl font-medium text-white rounded-xl px-6 py-2">Completed</button>
+                    </div>
+
+            </div>
+
+             <!-- card-5 -->
+
+             <div class="bg-slate-100 rounded-xl p-4 m-3">
+                <h5 class="bg-white rounded-xl text-xl w-28 p-2 my-2 ">Google LLC</h5>
+                <h3 class="text-2xl font-medium">Integrate OpenAI API  </h3>
+                <p class="text-xl bg-white rounded-xl text-gray-500 p-3 my-4">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                    and ensure onClick works properly</p>
+                    <div class="flex gap-16 my-3">
+                        <div>
+                            <h6 class="text-xl text-gray-500">Deadline</h6>
+                            <p class="text-2xl font-medium">21 March 2025</p>
+                        </div>
+                        <button class="bg-blue-600 text-xl font-medium text-white rounded-xl px-6 py-2">Completed</button>
+                    </div>
+
+            </div>
+
+             <!-- card-6 -->
+
+             <div class="bg-slate-100 rounded-xl p-4 m-3">
+                <h5 class="bg-white rounded-xl text-xl w-28 p-2 my-2 ">Glassdoar</h5>
+                <h3 class="text-2xl font-medium">Improve Job searching  </h3>
+                <p class="text-xl bg-white rounded-xl text-gray-500 p-3 my-4">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                    and ensure onClick works properly</p>
+                    <div class="flex gap-16 my-3">
+                        <div>
+                            <h6 class="text-xl text-gray-500">Deadline</h6>
+                            <p class="text-2xl font-medium">21 March 2025</p>
+                        </div>
+                        <button class="bg-blue-600 text-xl font-medium text-white rounded-xl px-6 py-2">Completed</button>
+                    </div>
+
+            </div>
+
+            
+        </section>
+
+        <section class="bg-white p-12 rounded-xl">
+            <div class="flex justify-center items-start gap-3 my-4">
+                <img class="w-48" src="assets/activity.png" alt="">
+                <p class="text-xl font-bold">Activity Log</p>
+            </div>
+            <button class=" bg-blue-600 text-xl font-medium text-white rounded-xl px-8 py-4">Clear History</button>
+        </section>
+        
+    </section>
     </header>
+
+    <script src="script/date.js"></script>
 </body>
 </html>
