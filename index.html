@@ -18,7 +18,7 @@
             <div class="flex gap-24">
                 <div class="flex gap-2 p-3 bg-slate-100 rounded-3xl">
                     <img class="" src="assets/checkbox.png" alt="">
-                    <p class="text-3xl font-bold">23</p>
+                    <p id="dev-number"class="text-3xl font-bold">23</p>
                 </div>
     
                 <img class="bg-slate-100  rounded-full p-2" src="assets/theme-btn.png" alt="">
@@ -36,7 +36,7 @@
                 <div ><img class="bg-white rounded-full  p-2 w-12" src="assets/checkbox.png" alt=""></div>
                 <div>
                     <p class="text-xl">Task Assigned</p>
-                    <p class="text-3xl font-bold">05</p>
+                    <p  id="task-num" class="text-3xl font-bold">6</p>
                 </div>
             </div>
 
@@ -45,7 +45,7 @@
                 <p class="text-2xl text-white">Discover Something <br> New Today!</p>
             </div>
 
-            <div class="flex bg-slate-100 rounded-xl p-4 mx-3 gap-3">
+            <div class="flex justify-center items-center bg-slate-100 rounded-xl p-4 mx-3 gap-3">
                 <div ><img class="bg-white rounded-xl  p-2 w-16" src="assets/calender.png" alt=""></div>
                 <p id="datetime" class="font-bold tex-xl"></p>
             </div>
@@ -64,7 +64,7 @@
                             <h6 class="text-xl text-gray-500">Deadline</h6>
                             <p class="text-2xl font-medium">21 March 2025</p>
                         </div>
-                        <button class="bg-blue-600 text-xl font-medium text-white rounded-xl px-6 py-2">Completed</button>
+                        <button class=" btn-complt bg-blue-600 text-xl font-medium text-white rounded-xl px-6 py-2 cursor-pointer">Completed</button>
                     </div>
 
             </div>
@@ -80,7 +80,7 @@
                             <h6 class="text-xl text-gray-500">Deadline</h6>
                             <p class="text-2xl font-medium">21 March 2025</p>
                         </div>
-                        <button class="bg-blue-600 text-xl font-medium text-white rounded-xl px-6 py-2">Completed</button>
+                        <button  class=" btn-complt bg-blue-600 text-xl font-medium text-white rounded-xl px-6 py-2">Completed</button>
                     </div>
 
             </div>
@@ -97,7 +97,7 @@
                             <h6 class="text-xl text-gray-500">Deadline</h6>
                             <p class="text-2xl font-medium">21 March 2025</p>
                         </div>
-                        <button class="bg-blue-600 text-xl font-medium text-white rounded-xl px-6 py-2">Completed</button>
+                        <button class=" btn-complt bg-blue-600 text-xl font-medium text-white rounded-xl px-6 py-2">Completed</button>
                     </div>
 
             </div>
@@ -114,7 +114,7 @@
                             <h6 class="text-xl text-gray-500">Deadline</h6>
                             <p class="text-2xl font-medium">21 March 2025</p>
                         </div>
-                        <button class="bg-blue-600 text-xl font-medium text-white rounded-xl px-6 py-2">Completed</button>
+                        <button class="btn-complt bg-blue-600 text-xl font-medium text-white rounded-xl px-6 py-2">Completed</button>
                     </div>
 
             </div>
@@ -131,7 +131,7 @@
                             <h6 class="text-xl text-gray-500">Deadline</h6>
                             <p class="text-2xl font-medium">21 March 2025</p>
                         </div>
-                        <button class="bg-blue-600 text-xl font-medium text-white rounded-xl px-6 py-2">Completed</button>
+                        <button class="btn-complt bg-blue-600 text-xl font-medium text-white rounded-xl px-6 py-2">Completed</button>
                     </div>
 
             </div>
@@ -148,7 +148,7 @@
                             <h6 class="text-xl text-gray-500">Deadline</h6>
                             <p class="text-2xl font-medium">21 March 2025</p>
                         </div>
-                        <button class="bg-blue-600 text-xl font-medium text-white rounded-xl px-6 py-2">Completed</button>
+                        <button class="btn-complt bg-blue-600 text-xl font-medium text-white rounded-xl px-6 py-2">Completed</button>
                     </div>
 
             </div>
@@ -161,6 +161,11 @@
                 <img class="w-48" src="assets/activity.png" alt="">
                 <p class="text-xl font-bold">Activity Log</p>
             </div>
+
+            <div id="activity-container">
+
+            </div>
+
             <button class=" bg-blue-600 text-xl font-medium text-white rounded-xl px-8 py-4">Clear History</button>
         </section>
         
@@ -168,5 +173,6 @@
     </header>
 
     <script src="script/date.js"></script>
+    <script src="script/complete.js"></script>
 </body>
 </html>
