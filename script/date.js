@@ -1,5 +1,13 @@
-var now = new Date();
-  var datetime = now.toLocaleString();
+function formatDate() {
+  const options = {
+      weekday: 'short', 
+      year: 'numeric',   
+      month: 'long',     
+      day: 'numeric'     
+  };
+  
+  const currentDate = new Date();
+  return currentDate.toLocaleDateString('en-US', options);
+}
 
-  // Insert date and time into HTML
-  document.getElementById("datetime").innerHTML = datetime;
+document.getElementById('datetime').textContent = formatDate();
